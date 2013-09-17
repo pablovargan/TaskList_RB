@@ -1,0 +1,15 @@
+<html>
+<head>
+  <title>Lista de la compra</title>
+</head>
+<body>
+    <h1>LISTADOR</h1>
+    <ul>
+      <% @lista.each do |i| %>
+         <li><%= i.nombre %></li>
+      <% end %>
+    </ul>
+
+</body>
+
+</html>
